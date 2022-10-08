@@ -5,9 +5,9 @@ import entidades.Proceso;
 import gui.JFrameSimuladorGestorMemoria;
 import java.util.ArrayList;
 
-public class main {
+  public class main {
 
-    // ITERADOR DE PID
+         // ITERADOR DE PID
     public static int SERIALIZADOR_PID = 0;
     
     // Gestor de memoria
@@ -16,11 +16,11 @@ public class main {
     // COLA DE PROCESOS
     public static ArrayList<Proceso> COLA_PROCESOS = new ArrayList<>(); // Hasta 15 procesos
 
-    // SIMULADOR
+    //    SIMULADOR
     public static JFrameSimuladorGestorMemoria SIMULADOR = new JFrameSimuladorGestorMemoria();
     
     public static void main(String[] args) {
-        SIMULADOR.setVisible(true);
+      SIMULADOR.setVisible(true);
     }
     
 }
